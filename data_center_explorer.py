@@ -25,7 +25,7 @@ st.markdown(
       :root { --ink:#17324d; --teal:#2f858d; --coral:#dc5c45; --paper:#f7f4ee; }
       .stApp { background: linear-gradient(180deg, #f7f4ee 0%, #ffffff 32%); }
       .stApp * { border-radius:0 !important; box-shadow:none !important; }
-      .block-container { max-width: 1180px; padding-top: 2.2rem; padding-bottom: 4rem; }
+      .block-container { max-width: 1180px; padding-top: 5.5rem; padding-bottom: 4rem; }
       h1, h2, h3 { color: var(--ink); letter-spacing: -0.02em; }
       h1 { font-size: clamp(2.4rem, 5vw, 4.5rem) !important; line-height: .98 !important; }
       .section-title { margin-top:2.5rem; padding:.65rem 0 .55rem;
