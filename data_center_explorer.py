@@ -131,7 +131,7 @@ with col1:
 with col2:
     show_plot(
         "drought_3.png",
-        "Average drought severity between 2021-2026 with data center locations. U.S. Drought Monitor, FracTracker",
+        "Average drought severity between 2022-2026 with data center locations. U.S. Drought Monitor, FracTracker",
     )
     
 st.write("Above, the average drought severity is compared between two 5-year time periods, 2016 to 2021 "
