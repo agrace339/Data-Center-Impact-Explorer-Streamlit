@@ -372,7 +372,7 @@ if selected_state:
 else:
     state_AHRdf = avghealth.iloc[0:0]
     
-measures = ["Asthma", "Cancer", "Cardiovascular Disease"]
+measures = ["Asthma", "Cancer", "Cardiovascular Diseases"]
 
 col1, col2, col3 = st.columns(3)
 
