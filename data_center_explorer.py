@@ -94,7 +94,7 @@ st.write("Roughly 75% to 90% of data centers use water as their primary cooling 
 st.markdown(
     '<div class="finding"><strong>Main finding.</strong> Drought severity has increased overall nation-wide over the past decade; '
     'while the data here does not point to a correlation between data center locations and drought severity, continued monitoring '
-    'is both pragmatic and recommended given the slow-but-deadly nature inherent to droughts. (FracTracker Alliance, 2026; '
+    'is both pragmatic and recommended given the slow-but-deadly nature inherent to droughts (FracTracker Alliance, 2026; '
     'U.S. Drought Monitor, n.d.).</div>',
     unsafe_allow_html=True,
 )
@@ -582,7 +582,7 @@ st.markdown(
     '<div class="finding"><strong>Main finding.</strong> Data centers tend to be built in areas with greater Democratic partisanship; '
     'this, however, could be due to data center locations on FracTracker being largely self-reported and therefore '
     'more likely to be submitted by individuals in high-density (traditionally Democratic) areas. That being said, '
-    'the fact remains that data center construction could be a future point of political contention within such communities. '
+    'the fact remains that data center construction could be a future point of political contention within such communities '
     '(FracTracker Alliance, 2026; National Neighborhood Data Archive, 2024).</div>',
     unsafe_allow_html=True,
 )
