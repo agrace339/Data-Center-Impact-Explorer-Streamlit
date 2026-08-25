@@ -91,6 +91,11 @@ st.write("Roughly 75% to 90% of data centers use water as their primary cooling 
          "built and being planned to be built has increased dramatically in the past 10 years, it begs the "
          "question:")
 
+st.write("**How are drought rates being impacted by data center construction?**")
+
+st.write("For this section, we examine the data provided by the U.S. Drought Monitor and its correlation "
+         "to recent data center construction.")
+
 st.markdown(
     '<div class="finding"><strong>Main finding.</strong> Drought severity has increased overall nation-wide over the past decade; '
     'while the data here does not point to a correlation between data center locations and drought severity, continued monitoring '
@@ -98,11 +103,6 @@ st.markdown(
     'U.S. Drought Monitor, n.d.).</div>',
     unsafe_allow_html=True,
 )
-
-st.write("**How are drought rates being impacted by data center construction?**")
-
-st.write("For this section, we examine the data provided by the U.S. Drought Monitor and its correlation "
-         "to recent data center construction.")
 
 st.subheader("How has drought changed over time?")
 
