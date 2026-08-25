@@ -91,6 +91,14 @@ st.write("Roughly 75% to 90% of data centers use water as their primary cooling 
          "built and being planned to be built has increased dramatically in the past 10 years, it begs the "
          "question:")
 
+st.markdown(
+    '<div class="finding"><strong>Main finding.</strong> Drought severity has increased overall nation-wide over the past decade; '
+    'while the data here does not point to a correlation between data center locations and drought severity, continued monitoring '
+    'is both pragmatic and recommended given the slow-but-deadly nature inherent to droughts. (FracTracker Alliance, 2026; '
+    'U.S. Drought Monitor (n.d.).</div>',
+    unsafe_allow_html=True,
+)
+
 st.write("**How are drought rates being impacted by data center construction?**")
 
 st.write("For this section, we examine the data provided by the U.S. Drought Monitor and its correlation "
@@ -569,6 +577,16 @@ st.write("Here, we examine the connections between data center presence and poli
          "these visualizations represent how past political trends may correspond to current data "
          "center presence."
          )
+
+st.markdown(
+    '<div class="finding"><strong>Main finding.</strong> Data centers tend to be built in areas with greater Democratic partisanship; '
+    'this, however, could be due to data center locations on FracTracker being largely self-reported and therefore '
+    'more likely to be submitted by individuals in high-density (traditionally Democratic) areas. That being said, '
+    'the fact remains that data center construction could be a future point of political contention within such communities. '
+    '(FracTracker Alliance, 2026; National Neighborhood Data Archive, 2024).</div>',
+    unsafe_allow_html=True,
+)
+
 st.subheader("Voting Populations")
 st.write("Histograms show that the data centers in the FracTracker dataset tend to be located in counties "
          "with higher voting populations. However, the data center dataset is partially crowd-sourced and "
