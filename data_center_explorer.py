@@ -74,7 +74,7 @@ pressure, modeled, avghealth, locations = load_results()
 pipeline = pressure[pressure["pipeline_projects"] >= 10]
 
 st.markdown('<div class="eyebrow">Data Center Impact Explorer · Findings</div>', unsafe_allow_html=True)
-st.title("What surrounds America’s data-center boom?")
+st.title("What surrounds America’s data center boom?")
 st.markdown(
     '<p class="lede">Digital computation may seem weightless, but every data center occupies a physical '
     'place. Here we examine how those places intersect with electricity systems, drought, public health, '
@@ -158,13 +158,13 @@ st.markdown(
 
 st.markdown(
     '<div class="finding"><strong>Main finding.</strong> In several states, the reported capacity of the '
-    'data-center pipeline approaches—and in some cases exceeds—the state’s average electricity generation '
+    'data center pipeline approaches—and in some cases exceeds—the state’s average electricity generation '
     'in 2024, revealing the scale of the planning challenge ahead (FracTracker Alliance, 2026; '
     'U.S. Energy Information Administration, 2025).</div>',
     unsafe_allow_html=True,
 )
 
-st.subheader("Where is data-center development concentrated?")
+st.subheader("Where is data center development concentrated?")
 st.write(
     "The emerging geography is strikingly uneven. Among facilities classified as proposed, approved, "
     "under construction, or expanding, Virginia alone contains 263 projects. Texas and Georgia follow. "
@@ -317,7 +317,7 @@ show_plot(
 
 st.subheader("What do these pressures look like in practice?")
 st.write(
-    "A July 2026 incident in Loudoun County illustrates why the size and behavior of data-center loads matter, "
+    "A July 2026 incident in Loudoun County illustrates why the size and behavior of data center loads matter, "
     "not merely the amount of electricity they consume. NBC Washington reported that equipment failed on a "
     "high-voltage transmission line serving data centers, after which the facilities’ control systems briefly "
     "transferred them to backup power. Monitoring data cited by NBC showed repeated voltage changes across much "
@@ -394,7 +394,7 @@ st.subheader("How do these health rankings line up with data center locations?")
 st.write("For states whose citizens are currently experiencing complications related to asthma, cardiovascular "
          "conditions, or cancer, allowing a high volume of data centers to be built or expanded could very well "
          "have an impact on the symptoms those individuals live with day to day. Take, for example, Virginia "
-         "(home of the now-famous 'data-center alley'), which is consistently middle of the pack compared "
+         "(home of the now-famous 'data center alley'), which is consistently middle of the pack compared "
          "to other states. While there are a myriad of extraneous factors that contribute to the health "
          "challenges a state faces, the pollutants released by data centers have the potential to actively "
          "harm residents that are already vulnerable--and whose presence has heretofore been overlooked. "
