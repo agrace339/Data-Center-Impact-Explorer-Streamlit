@@ -95,7 +95,7 @@ st.markdown(
     '<div class="finding"><strong>Main finding.</strong> Drought severity has increased overall nation-wide over the past decade; '
     'while the data here does not point to a correlation between data center locations and drought severity, continued monitoring '
     'is both pragmatic and recommended given the slow-but-deadly nature inherent to droughts. (FracTracker Alliance, 2026; '
-    'U.S. Drought Monitor (n.d.).</div>',
+    'U.S. Drought Monitor, n.d.).</div>',
     unsafe_allow_html=True,
 )
 
