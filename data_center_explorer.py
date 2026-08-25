@@ -393,7 +393,7 @@ for col, measure in zip([col1, col2, col3], measures):
 st.subheader("How do these health rankings line up with data center locations?")
 st.write("For states whose citizens are currently experiencing complications related to asthma, cardiovascular "
          "conditions, or cancer, allowing a high volume of data centers to be built or expanded could very well "
-         "have an impact on the symptoms those individuals are experiencing. Take, for example, Virginia "
+         "have an impact on the symptoms those individuals live with day to day. Take, for example, Virginia "
          "(home of the now-famous 'data-center alley'), which is consistently middle of the pack compared "
          "to other states. While there are a myriad of extraneous factors that contribute to the health "
          "challenges a state faces, the pollutants released by data centers have the potential to actively "
