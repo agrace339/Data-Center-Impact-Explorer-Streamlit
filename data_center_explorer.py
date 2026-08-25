@@ -597,13 +597,13 @@ col1, col2 = st.columns(2)
 
 with col1:
     show_plot(
-        "political_histogram_1.png",
+        "voting_pop_summary.png",
         "Registered voters per county by data center presence (with/without). Source: National Neighborhood Data Archive, FracTracker",
     )
 
 with col2:
     show_plot(
-        "political_histogram_2.png",
+        "voting_pop_bins.png",
         "Registered voters per county by number of data centers (1-6+). Source: National Neighborhood Data Archive, FracTracker",
     )
 
@@ -618,13 +618,13 @@ col1, col2 = st.columns(2)
 
 with col1:
     show_plot(
-        "partisanship_1.png",
+        "partisanship_summary.png",
         "Average Republican/Democrat county partisanship by data center presence. Source: National Neighborhood Data Archive, FracTracker",
     )
 
 with col2:
     show_plot(
-        "partisanship_2.png",
+        "partisanship_bins.png",
         "Distribution of Republican/Democrat county partisanship by data center presence. Source: National Neighborhood Data Archive, FracTracker",
     )
 
@@ -635,13 +635,13 @@ col1, col2 = st.columns(2)
 
 with col1:
     show_plot(
-        "turnout_1.png",
+        "turnout_summary.png",
         "Voter turnout percentage by data center presence (with/without). Source: National Neighborhood Data Archive, FracTracker",
     )
 
 with col2:
     show_plot(
-        "turnout_2.png",
+        "turnout_bins.png",
         "Voter turnout percentage by data center presence (0-6+). Source: National Neighborhood Data Archive, FracTracker",
     )
 
