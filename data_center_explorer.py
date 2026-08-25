@@ -108,7 +108,7 @@ st.subheader("How has drought changed over time?")
 
 show_plot(
     "drought_1.png",
-    "Source: U.S. Drought Monitor (n.d.).",
+    "Source: U.S. Drought Monitor (n.d.)",
 )
 
 st.write("From the graph, the year 2012 stands out as a year when all drought rates increase at a rapid rate. "
