@@ -346,8 +346,8 @@ st.write(
 st.markdown(
     '<div class="finding"><strong>Main finding.</strong> States with a high frequency of planned data '
     'centers also tend to have middling to poor health rankings with regards to conditions that could '
-    'potentially be exacerbated by their presence (FracTracker Alliance, 2026; '
-    'United Health Foundation, 2025).</div>',
+    'potentially be exacerbated by their presence. Despite this, awareness of such implications remains '
+    'low. (FracTracker Alliance, 2026; United Health Foundation, 2025).</div>',
     unsafe_allow_html=True,
 )
 
