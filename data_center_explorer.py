@@ -362,7 +362,7 @@ st.write("In order to understand the health and wellness of a state, we utilized
          "Using emerging literature as a guideline (Pavlinich, 2026; Han et al., 2024), we selected three diagnoses "
          "as our points of focus: asthma, cardiovascular disease, and cancer. The average ranking per "
          "state across all included demographics for each diagnosis was then calculated, giving us the "
-         "rankings you see below. **Select a state to see how they currently rank across these three metrics:**")
+         "rankings you see below. **Select a state to see how they currently rank on average (compared to other states) across these three metrics:**")
 
 us_states = [state.name for state in us.states.STATES]
 
