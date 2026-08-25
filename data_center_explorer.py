@@ -336,13 +336,12 @@ st.write(
 
 st.divider()
 st.markdown('<h2 class="section-title" id="health">Health</h2>', unsafe_allow_html=True)
-st.markdown(
-    '<p class="lede">While studies have yet to release concretely linking data centers to poor health outcomes, '
-    'we do know that the pollutants they release can exacerbate the symptoms experienced by individuals '
-    'with respiratory and cardiovascular conditions, as well as increase the risk of developing cancer with '
-    'prolonged exposure (Pavlinich, 2026).</p>',
-    unsafe_allow_html=True,
-)
+st.write(
+    "While studies have yet to release concretely linking data centers to poor health outcomes, "
+    "we do know that the pollutants they release can exacerbate the symptoms experienced by individuals "
+    "with respiratory and cardiovascular conditions, as well as increase the risk of developing cancer with "
+    "prolonged exposure."
+    )
 
 st.markdown(
     '<div class="finding"><strong>Main finding.</strong> States with a high frequency of planned data '
